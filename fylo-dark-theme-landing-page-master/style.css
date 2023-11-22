@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    
+}
+nav{
+    background-color: hsl(217, 28%, 15%);
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 15px;
+    margin: 20px;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    background-color: hsl(218, 28%, 13%);
+    width: 100%;
+    height: 100%;
+}
+.main-first{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-img img{
+    width: 35vw;
+}
+.main-h1 h1{
+    color: white;
+    text-align: center;
+}
+.main-p p{
+    color: white;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.two-1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 70px;
+}
+.two-2{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.collaboration{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 40vw;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+    width: 40vw;
+}
+.access img{
+    width: 80px;
+}
+.security{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+    width: 40vw;
+}
+.file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+    width: 40vw;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: white;
+    gap: 30px;
+    margin: 80px;
+}
+.sir{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+.all-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8%;
+}
+.all-img img{
+    width: 40vw;
+}
+.all-txt a{
+    color: aqua;
+}
+.four-div{
+    display: flex;
+    color: white;/
+    justify-content: center;
+    gap: 30px;
+}
+.Satish{
+    background-color: hsl(217, 28%, 15%);
+    /* width: 88vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    border-radius: 10px;
+    height: 25vh;
+    padding-left: 20px;
+}
+.Bruce{
+    background-color: hsl(217, 28%, 15%);
+    /* width: 88vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 17px;
+    border-radius: 10px;
+    height: 25vh;
+    padding-left: 20px;
+}
+.Iva{
+    background-color: hsl(217, 28%, 15%);
+    /* width: 88vw; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+    height: 25vh;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.Satish-img img{
+    width: 3vw;
+    border-radius: 45px;
+}
+.Bruce-img img{
+    width: 3vw;
+    border-radius: 45px;
+}
+.Iva-img img{
+    width: 3vw;
+    border-radius: 45px;
+}
+.under-Satish{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.under-Iva{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.under-bruce{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.only-img img{
+    position: absolute;
+    left: 130px;
+    z-index: 99;
+    top: 1690px;
+    width: 40px;
+}
+.get{
+    width: 50vw;
+    background-color: rgb(66, 9, 139);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 80px;
+    height: 30vh;
+    position: relative;
+    top: 40px;
+}
+.top-get{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+.in{
+    display: flex;
+    gap: 10px;
+}
+.in button{
+    width: 220px;
+    height: 30px;
+    border: none;
+}
+.pp p{
+    text-align: center;
+    width: 70vw;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+.all-footerdiv{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.location{
+    display: flex;
+    gap: 10px;
+}
+.location img{
+    width: 15px;
+    height: 15px;
+}
+.ex-1{
+    display: flex;
+    gap: 10px;
+}
+.ex-2{
+    display: flex;
+    gap: 10px;
+}
+.all-ex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.locate{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+@media screen and (max-width: 950px) {
+    ul{
+        display: none;
+    }
+    .two-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .two-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .all{
+        flex-direction: column;
+    }
+    .sir{
+        flex-direction: column;
+        display: flex;
+        gap: 40px;
+        padding-left: 0;
+    }
+    .Satish{
+        width: 88vw;
+    }
+    .Satish-img img{
+        width: 40px;
+    }
+    .Bruce{
+        width: 88vw;
+    }
+    .Bruce-img img{
+        width: 40px;
+    }
+    .Iva{
+        width: 88vw;
+    }
+    .Iva-img img{
+        width: 40px;
+    }
+    .get{
+        width: 90vw;
+    }
+    .in{
+        flex-direction: column;
+    }
+    .pp{
+        width: 69vw;
+    }
+    .all-footerdiv{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 30px;
+    }
+    .access{
+        width: 80vw;
+    }
+    .file{
+        width: 80vw;
+    }
+    .security{
+        width: 80vw;
+    }
+    .collaboration{
+        width: 80vw;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
