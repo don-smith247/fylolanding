@@ -10,6 +10,16 @@ body{
 nav{
     background-color: hsl(217, 28%, 15%);
 }
+.menu{
+    position: absolute;
+}
+.line{
+    display: none;
+    background-color: white;
+    width: 28px;
+    height: 3px;
+    margin: 3px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -18,6 +28,7 @@ ul{
     margin: 20px;
 }
 .nav-div{
+    padding: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -325,6 +336,7 @@ ol{
     }
     .get{
         width: 90vw;
+        height: 35vh;
     }
     .in{
         flex-direction: column;
@@ -336,6 +348,8 @@ ol{
         flex-direction: column;
         padding-top: 80px;
         padding-left: 30px;
+        padding-bottom: 70px;
+        gap: 30px;
     }
     .access{
         width: 80vw;
@@ -350,7 +364,18 @@ ol{
         width: 80vw;
     }
 
-
+    .menu{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+    }
+    .line{
+        display: block;
+        background-color: white;
+        width: 28px;
+        height: 3px;
+        margin: 3px;
+    }
 
 }
 
